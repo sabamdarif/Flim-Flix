@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/db5e68f97f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/movie-home.css">
+
+  <title>ABC MOVIES</title>
+
+  
+      <div class="upload_box">
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="text" name="title" placeholder="Title">
+    <input type="date" name="date" placeholder="Release Date">
+ <button style="border: none;">Select Poster 👇</button>
+    <input type="file" name="poster" placeholder="Poster" id="poster_input" accept="image/*">
+     <button style="border: none;">Select Screenshot 👇</button>
+    <input type="file" name="screenshot" placeholder="Screenshot" accept="image/*">
+    <select name="language">
+      <option value="English">English</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Bengali">Bengali</option>
+    </select>
+    <select name="audio">
+      <option value="Dubbed">Dubbed</option>
+      <option value="Original">Original</option>
+      <option value="Dual-audio">Dual</option>
+      <option value="UnOfficial-dubbed">UnOfficial Dubbed</option>
+    </select>
+    <select name="type">
+      <option value="Bollywood">Bollywood</option>
+      <option value="Hollywood">Hollywood</option>
+      <option value="South">South</option>
+    <option value="Tollywood">Tollywood</option>
+     <option value="Webseries">Webseries</option>
+  </select>
+  
+ <select name="genre">
+      <option value="Action">Action</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Si-fi">Si-Fi</option>
+      
+    </select>
+<textarea name="description" id="description" placeholder="Description"></textarea>
+  <input type="text" name="low" placeholder="480p Link">
+  <input type="text" name="medium" placeholder="720p Link">
+  <input type="text" name="high" placeholder="1080p Link">
+  <input type="submit" value="Upload" id="upload_button">
+</form>
+      </div>
+
+</body>
+</html>

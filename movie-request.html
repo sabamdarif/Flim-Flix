@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/db5e68f97f.js" crossorigin="anonymous"></script>
+
+  <title>ABC MOVIES</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/movie-home.css">
+</head>
+
+<body>
+ <div class="header">
+ <div id="sdbar">
+  <label for="opn-sid-mnu" id="menu-icon">
+   <i class="fa-solid fa-bars bartoside"></i>
+      </label>
+    </div>
+    <div id="logozn">
+      <a href="/index.html">
+      <img id="logopng" src="/img/weblogo.png" alt="#">
+      </a>
+    </div>
+    <div id="search">
+ <label for="opn-serc-box">
+      <i class="fa-solid fa-magnifying-glass srcico search-icon"></i>
+      </label>
+    </div>
+  </div>
+<input type="checkbox" id="opn-serc-box">
+<div id="search-box">
+  <input type="text" placeholder="Search here...." id="search_input">
+  <div class="search_result">
+
+    <!-- <a href="#" class="card">
+ <img src="/movie-contents/Writer-Padmabhushan/Writer Padmabhushan 2023.jpg">
+ <div class="cont">
+ <h3>Writer Padmabhushan</h3>
+ <div class="movie-info">
+<p>
+Action ,</p>
+<p><span>series</span>
+</p>
+ </div>
+</div>
+</a> -->
+
+  </div>
+</div>
+  <div class="main">
+    <input type="checkbox" id="opn-sid-mnu">
+<div id="slide-menu">
+      <ul class="list-up">
+        <div class="click-box">
+          <a href="/catagory-pages/Bengali.html">
+            <li class="list-cont">
+              Bengali
+            </li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/hollywood-page.html">
+            <li class="list-cont">Holly Wood</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/Bollywood.html">
+            <li class="list-cont">Bolly Wood</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/Dual.html">
+            <li class="list-cont">Dual Audio</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/Dubbed.html">
+            <li class="list-cont">Hindi Dubbed</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/South.html">
+            <li class="list-cont">South Movies</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/Webseries.html">
+            <li class="list-cont">WEB-Series</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/Si-fi.html">
+            <li class="list-cont">Si-Fi</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/UnOfficial-dubbed.html">
+            <li class="list-cont">UnOfficial Dubbed</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/Action.html">
+            <li class="list-cont">Action</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/catagory-pages/Comedy.html">
+            <li class="list-cont">Comedy</li>
+          </a>
+        </div>
+        <div class="click-box">
+          <a href="/movie-request.html">
+            <li class="list-cont list-mv-rqst">! Request Movie !</li>
+          </a>
+        </div>
+        <br><br>
+      </ul>
+    </div>
+  
+    <!-- RESPONSIVE AD START -->
+    <div class="area-ad">
+  <center>
+    
+    <p> Responsive Ad</p>
+    
+  </center>
+ </div>
+  <!-- RESPONSIVE AD END -->
+     
+    
+ <div class="request-cont-form">
+   <form onsubmit="sendEmail(); reset(); return false;">
+     <h3>Request movie</h3>
+<input type="text" id="frm-name" placeholder="Your Name" required>
+<input type="email" id="frm-email" placeholder="Your Email" required>
+<textarea name="" id="frm-massage" placeholder="Type The Movie's Name OR Description" cols="4" rows="10" required></textarea>
+ <button type="submit">
+   SUBMIT
+ </button>
+   </form>
+
+ </div>
+
+
+ <!-- RESPONSIVE AD START -->
+<div class="area-ad">
+  <center>
+    
+    <p> Responsive Ad</p>
+    
+  </center>
+ </div>
+  <!-- RESPONSIVE AD END -->
+     
+         <div class="bottom-txt">
+
+
+           <div class="bottom-box-div">
+             <div class="bottom-box">
+
+               <h3><i class="fa-solid fa-crown"></i>Thank For Visit<i class="fa-solid fa-crown"></i></h3>
+
+             </div>
+           </div>
+
+           <div class="copyright-info">
+             <p>
+               2023 © <span>
+                 <a href="#">abc.com </a></span> | All Rights Reserved.
+             </p>
+
+           </div>
+
+           <div class="btm-dis-gp">
+             <div class="bdg-sub">
+               <a href="/desclaimer.html">
+                 Disclaimer
+               </a>
+             </div>
+             <div class="bdg-sub">
+               <a href="#">
+                 Join Our Group !
+               </a>
+
+             </div>
+             <div class="bdg-sub">
+               <a href="/how-2-dl.html">
+                 How To Download ?
+               </a>
+             </div>
+             <div class="bdg-sub">
+               <a href="#">
+                 Movie Request Page
+               </a>
+             </div>
+           </div>
+         </div>
+
+
+         </div>
+         <!-- Project -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail(){
+    Email.send({
+    SecureToken : "2b0d4d67-13eb-4b18-a325-f8f26de6e046",
+    To : 'sabamdarif@gmail.com',
+    From : "document.getElementById("frm-name").value",
+    Subject : "New Movie request",
+    Body : "Name: " + document.getElementById("frm-name").value
+    + "<br> Email: " + document.getElementById("frm-email").value + "<br> Movie: " document.getElementById("frm-massage").value
+}).then(
+  message => alert(Request Send successfuly)
+);
+  }
+</script>
+<script>
+const searchIcon = document.querySelector('.search-icon');
+
+searchIcon.addEventListener('click', function() {
+this.classList.toggle('active');
+});
+</script>
+<script src="/scripts/script.js"></script>
+</body>
+
+</html>

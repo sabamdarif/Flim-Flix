@@ -1,0 +1,359 @@
+.dtl-box {
+  height: 50px;
+  width: 220px;
+  background: #353b48;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: solid 1.5px #ced6e0;
+  border-radius: 3px;
+  color: whitesmoke;
+  box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-left: 8px;
+  margin-right: 4px;
+  font-family: 'Alegreya', serif;
+}
+
+.movies_chart {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.movie_cards {
+  display: block;
+  height: 340px;
+  width: 160px;
+  margin: 9px 3px;
+  box-shadow: 1px 3px 10px 0.7px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  border: 4px solid #747d8c;
+  background: #57606f;
+  overflow: hidden;
+}
+
+a.action_cards {
+  display: block;
+  height: 340px;
+  width: 160px;
+  margin: 9px 3px;
+  box-shadow: 1px 3px 10px 0.7px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  border: 4px solid #747d8c;
+  background: #57606f;
+  overflow: hidden;
+}
+
+
+.movie_cards {
+  display: block;
+  height: 340px;
+  width: 160px;
+  overflow: hidden;
+}
+
+
+.movie_cards_img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 250px;
+/*  transition: height,width 0.2s,0.2s ease-in-out;*/
+
+transition: transform 300ms;
+border-bottom: 4px solid #747d8c;
+}
+
+.movie_cards_img:hover {
+/*  width: 175px;
+  height: 280px; */
+  transform: scale(1.2);
+}
+
+.mv-card-title {
+  height: auto;
+  width: 155px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #dfe4ea;
+  padding: 2.5px 1px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.bottom-txt {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  margin: 60px 3px;
+  padding: 20px 5px;
+  font-family: 'Alegreya', serif;
+}
+
+.bottom-box-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: whitesmoke;
+}
+
+.bottom-box {
+  height: 40px;
+  width: 200px;
+  border-radius: 4px;
+  background: #2f3542;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.copyright-info p {
+  font-size: 20px;
+}
+
+.copyright-info p span {
+  font-weight: bold;
+}
+
+.copyright-info p span a {
+  color: #54a0ff;
+}
+
+.copyright-info p span a:hover {
+  color: wheat;
+}
+
+.btm-dis-gp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bdg-sub {
+  margin: 2px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.bdg-sub a {
+  color: wheat;
+}
+
+.bdg-sub a:hover {
+  color: #70a1ff;
+}
+
+.request-cont-form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.request-cont-form form {
+  height: 420px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #353b48;
+  box-shadow: 2px 2px 9px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.request-cont-form form h3 {
+  color: #ecf0f1;
+  text-transform: uppercase;
+}
+
+.request-cont-form form input {
+  width: 200px;
+  height: auto;
+  border: none;
+  outline: none;
+  height: 50px;
+  margin: 14px;
+  border-radius: 7px;
+  padding: 5px;
+  background: #ecf0f1;
+  font-weight: bold;
+  font-family: 'Alegreya', serif;
+}
+
+.request-cont-form form input::placeholder, .request-cont-form form textarea::placeholder {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.request-cont-form form textarea {
+  border: none;
+  outline: none;
+  height: 140px;
+  width: 200px;
+  margin: 4px;
+  border-radius: 7px;
+  padding: 16px 10px;
+  background: #ecf0f1;
+  font-weight: bold;
+  font-family: 'Alegreya', serif;
+}
+
+.request-cont-form form button {
+  height: 50px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e67e22;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-family: 'Rubik', sans-serif;
+}
+
+.desclaimer-txt {
+  text-align: center;
+  margin: 4px;
+  padding: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.desclaimer-txt p {
+  margin: 4px 0px;
+  line-height: 1.5;
+}
+
+.desclaimer-txt span {
+  font-weight: bold;
+  display: block;
+}
+
+.desclaimer-txt ul {
+  margin: 0;
+  padding: 0;
+}
+
+.desclaimer-txt ul li {
+  list-style-position: inside;
+  padding: 3px 0px;
+}
+
+.video-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1.5px 1.5px 13px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 70px 30px;
+}
+
+.video-box video {
+  height: 500px;
+  width: 70px;
+}
+
+.upload_box {
+  height: 150%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.upload_box form {
+  height: auto;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 9px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.upload_box form input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6px;
+  border-radius: 3px;
+  padding: 3px;
+  background: #f5f6fa;
+}
+
+#description {
+  height: 200px;
+  width: 100%;
+  outline: none;
+  padding: 6px 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  background: #f5f6fa;
+}
+
+.upload_box form input::placeholder, .request-cont-form form textarea::placeholder {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.upload_box form select {
+  width: 90px;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin: 6px;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+  background: #f5f6fa;
+}
+
+#upload_button {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: #a29bfe;
+  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+
+.bottom-txt-h2d {
+  position: fixed;
+  bottom: 0px;
+}
+}
